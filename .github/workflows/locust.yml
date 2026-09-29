@@ -9,7 +9,7 @@ on:
       - locust
 
 jobs:
-  부하테스트:
+  locust_test:
     runs-on: ubuntu-latest
 
     steps:
