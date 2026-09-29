@@ -38,3 +38,12 @@ def create_item(item: dict):
 
 #   http://127.0.0.1:8000/api/items
 #   http://127.0.0.1:8000/docs
+# if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(
+        "api_server:app",
+        host="127.0.0.1",
+        port=8000,
+        reload=False
+    )
